@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/j-frances/homelab-gitops.git
-    targetRevision: main
+    targetRevision: master
     path: clusters/homelab      # ← watches this folder for child Apps
   destination:
     server: https://kubernetes.default.svc
