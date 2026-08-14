@@ -1,0 +1,5 @@
+*-secret.yaml
+!*-sealedsecret.yaml
+sealed-secrets-master-key.yaml
+*.key
+keys.txt
