@@ -1,0 +1,5 @@
+# .sops.yaml (repo root)
+creation_rules:
+  - path_regex: .*\.sops\.ya?ml$
+    encrypted_regex: '^(data|stringData)$'
+    age: age1dpc6myw7eydax98gyv2xzcxh7zmnj6hnkx3mv3hcaawmaw09rg9qzd4vak
